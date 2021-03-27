@@ -39,7 +39,7 @@ ldconfig /usr/local/lib
 
 ### Download
 
-https://github.com/Masterflitzer/JPG2HEIC/blob/master/JPG2HEIC.sh
+https://raw.githubusercontent.com/Masterflitzer/JPG2HEIC/master/JPG2HEIC.sh
 
 ### Usage
 
