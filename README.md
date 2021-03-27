@@ -37,6 +37,10 @@ make && make install
 ldconfig /usr/local/lib
 ```
 
+### Download
+
+https://github.com/Masterflitzer/JPG2HEIC/blob/master/JPG2HEIC.sh
+
 ### Usage
 
 ```bash
