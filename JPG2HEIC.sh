@@ -1,7 +1,7 @@
 #! /bin/bash
 
 for x in *.jpg; do
-    echo "$x"
+    echo "$x --> ${x%.jpg}.heic"
     magick "$x" "${x%.jpg}.heic"
     exiftool -overwrite_original -tagsFromFile "$x" -all:all "${x%.jpg}.heic"
 
