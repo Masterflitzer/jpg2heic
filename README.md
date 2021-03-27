@@ -12,11 +12,10 @@ brew install imagemagick
 
 ```bash
 su -
-apt install exiftool
+
 sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
 apt update
-apt install pkg-config m4 libtool automake autoconf
-apt install build-essential autoconf libtool git-core pkg-config m4 automake
+apt install exiftool build-essential autoconf libtool git-core pkg-config m4 automake
 apt build-dep imagemagick libmagickcore-dev libde265 libheif
 
 cd /usr/src/ 
