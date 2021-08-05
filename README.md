@@ -1,4 +1,4 @@
-# JPG2HEIC
+# jpg2heic
 Bulk convert JPG images to HEIC/HEIF with metadata in Bash.
 
 ### Installation (Homebrew)
